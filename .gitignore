@@ -1,0 +1,29 @@
+# Keil generated files
+*.axf
+*.bin
+*.elf
+*.hex
+*.map
+*.o
+*.d
+*.crf
+*.lnp
+*.dep
+*.bak
+
+# Keil project files (only ignore user-specific ones)
+*.uvguix.*
+
+# Temporary files
+*~
+*.swp
+*.swo
+
+# Build directories
+Build/
+Debug/
+Release/
+
+# IDE files
+.vscode/
+.idea/
