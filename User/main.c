@@ -25,20 +25,6 @@ int main(void)
     {
         // =================================
         // ???:??,??????
-        // =================================
-        GPIO_WriteBit(GPIOA, GPIO_Pin_0, Bit_RESET);  // ??
-        GPIO_WriteBit(GPIOB, GPIO_Pin_12, Bit_RESET);  // ????
-        Delay_ms(1000); // ????1?
-
-        // =================================
-        // ???:??,?????
-        // =================================
-        GPIO_WriteBit(GPIOA, GPIO_Pin_0, Bit_SET);    // ??
-        GPIO_WriteBit(GPIOB, GPIO_Pin_12, Bit_SET);  // ????
-        Delay_ms(1000); // ????1?
-
-        // =================================
-        // ???:??,??????
         // ??:?200ms -> ?200ms -> ?200ms
         // =================================
         GPIO_WriteBit(GPIOA, GPIO_Pin_0, Bit_RESET);  // ??
